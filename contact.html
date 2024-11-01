@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Product Review">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Akshai S,Harish K">
+        <title>EvaluxeHub | Contact </title>
+        <link rel="stylesheet" href="style_css/style.css">
+        <link rel="icon" href="img/EvaluxeHub.png">
+        <script src="https://kit.fontawesome.com/69806a9aa8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="box">
+            <h1>EvaluxeHub</h1>
+            <p>Could you please provide more information about your review process and criteria for selecting products to feature on your website?  <a href="mailto:akshaiselfofficial@gmail.com">Contact Support </a></p>
+            <div class="Contact">
+                <p>Contact us for more detailed information</p>
+                <p class="phone"><i class="fa-solid fa-lg fa-phone" style="color: #000000;"></i></p>
+                <a href="tel:+91 8015915867">+91 8015915867</a>
+            </div>
+            <div class="Contact">
+                <p>Name/E-mail/Phone Number</p>
+                <p class="phone">Fill Your Detail to be Contact</p>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100095373674728" target="_blank"><i class="fa-brands fa-facebook fa-2xl" style="color: #000000;"></i>  </a>
+                <a href="https://github.com/Akshai-max" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=918015915867" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #000000;"></i></a>
+                <a href="https://www.instagram.com/akshai_self_official/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i></a>
+                <a href="https://www.linkedin.com/in/akshai-undefined-768a222b7/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+            </div>
+        </div>
+        <div class="your_content">
+            <a href="logout.php">Log out</a>
+            <a href="index.php" style="float: left;">Home</a>
+            <h2>Contact Us</h2>
+            <div class="input">
+                <form action="content.php" method="post">
+                <table>
+                <tr>
+                    <td>
+                <div class="firstname">
+                    <label for="firstname"><p class="para">First Name : </p></label>
+                    <input class="in" type="text" name="firstname" id="firstname" placeholder="First name">
+                </div></td><td>
+                <div class="lastname">
+                    <label for="lastname"><p class="para">Last Name : </p></label>
+                    <input class="in" type="text" name="lastname" id="lastname" placeholder="Last name">
+                </div></td>
+               </tr>
+               <tr>
+                <td>
+                <div class="email">
+                    <label for="E-mail"><p class="para">E-mail : </p></label>
+                    <input class="in" type="email" name="email" id="E-mail" placeholder="eg : you@gmail.com">
+                </div></td>
+                <td>
+                <div class="phonenumber">
+                    <label for="phonenumber"><p class="para">Phone Number : </p></label>
+                    <input class="in" type="tel" name="phonenumber" id="phonenumber" placeholder="phone number">
+                </div></td>
+            </tr>
+            </table>
+            <div class="text">
+                <label for="text"><p class="para">Comment : </p></label>
+                <textarea name="text" id="text" cols="50" rows="10" placeholder="Type your message"></textarea>
+            </div>
+            <input type="reset" value="Reset" class="reset">
+            <input type="submit" value="Submit" class="submit" onclick="alert()">
+            <div class="alert" id="alert">
+                <img src="img/tick.jpg" alt="tick">
+                <p style="font-weight: 500;">Your Response Has been Submitted Successfully.</p>
+            </div>
+            </form>
+            </div>
+        </div>
+        <script>
+            let pop=document.getElementById("alert");
+            function alert(){
+                pop.classList.add("popup");
+            }
+        </script>
+    </body>
+</html>

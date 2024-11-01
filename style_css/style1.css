@@ -1,0 +1,110 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scrollbar-width: none;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.header{
+    padding-left: 33%;
+    background-image:linear-gradient(to left,#e2e2e2, #d1daf7,#e2e2e2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header tr,td{
+    padding: 13px;
+}
+.header h1{
+    display: inline;
+    cursor: pointer;
+    font-size: 300%;
+    letter-spacing: 2px;
+}
+.header img{
+    cursor:pointer;
+}
+.navigation{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.178),-2px 2px 2px 1px rgba(0, 0, 0, 0.178);
+    background-color: rgb(32, 93, 121);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navigation nav{
+    display: flex;
+    letter-spacing: 0.8px;
+    padding: 0px;
+    margin: 0px;
+}
+.navigation ul{
+    font-size: 110%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    font-size: 110%;
+    padding: 13px;
+    margin: 0px;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+    transition: .2s;
+}
+.navigation li:hover{
+    color:#e2e2e2;
+    background-color: rgb(21, 135, 163);
+}
+.navigation .active{
+    color:#e2e2e2;
+    background-color: rgb(21, 135, 163);
+}
+.navigation .hov{
+    margin-left: 65%;
+    cursor: pointer;
+    padding: 15px 40px;
+    transition: .2s;
+}
+.navigation .hov:hover{
+    background-color:rgb(21, 135, 163) ;
+}
+.line{
+    padding-top: 40px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 200px;
+    max-width: 100%;
+    min-height: 4px;
+    flex-direction:row;
+    font-size: 20px;
+    border-right: 2px solid black;
+}
+.line .a{
+    margin-bottom: 490px;
+}
+.line h2{
+    margin-bottom: 300px;
+}
+.content {
+    margin-top: 60px;
+    margin-left: 300px;
+    font-size: 22px;
+    line-height: 180%;
+    padding:  0px 40px 0px 0px;
+}
+.navigation .hov{
+    float: right;
+    cursor: pointer;
+    padding: 15px 40px;
+    transition: .2s;
+}
+.navigation .hov:hover{
+    background-color:rgb(21, 135, 163) ;
+}
